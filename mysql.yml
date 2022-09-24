@@ -33,7 +33,7 @@ spec:
     # terminationGracePeriodSeconds: 10
       containers:
       - name: mysql
-        image: rajmandale/capstone:mysql
+        image: rajmandale/bookmyslot:mysql
         
         ports:
         - containerPort: 3306
