@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: config-server
-        image: rajmandale/capstone:project-config-server
+        image: rajmandale/bookmyslot:project-config-server
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8888
