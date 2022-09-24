@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: rajmandale/capstone:project-user-service
+        image: rajmandale/bookmyslot:project-user-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8090
