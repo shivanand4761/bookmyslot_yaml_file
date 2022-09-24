@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: interviewer-service
-        image: rajmandale/capstone:project-interviewer-service
+        image: rajmandale/bookmyslot:project-interviewer-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8097
