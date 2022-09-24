@@ -5,34 +5,34 @@ metadata:
   name: mongodb
   #namespace: sprint
   labels:
-   app: mongo
+   app: mongodb
 spec:
   ports:
   - port: 27017
   clusterIP: None
   selector:
-    app: mongo
+    app: mongodb
 ...
 ---
 
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: mongo
+  name: mongodb
 spec:
   selector:
     matchLabels:
-      app: mongo
+      app: mongodb
   serviceName: "mongodb"
   replicas: 1
   template:
     metadata:
       labels:
-        app: mongo
+        app: mongodb
     spec:
      # terminationGracePeriodSeconds: 10
       containers:
-      - name: mongo
+      - name: mongodb
         image: rajmandale/capstone:mongo
         
         ports:
