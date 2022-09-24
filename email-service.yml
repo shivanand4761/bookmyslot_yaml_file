@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: email-service
-        image: rajmandale/capstone:project-email-service
+        image: rajmandale/bookmyslot:project-email-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8075
