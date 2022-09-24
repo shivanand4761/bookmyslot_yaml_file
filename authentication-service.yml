@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: authentication-service
-        image: rajmandale/capstone:project-authentication-service
+        image: rajmandale/bookmyslot:project-authentication-service
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8095
