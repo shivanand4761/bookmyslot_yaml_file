@@ -5,7 +5,7 @@ metadata:
   name: mysql
   #namespace: sprint
   labels:
-   app: project
+   app: mysql
 spec:
   ports:
   - port: 3306
