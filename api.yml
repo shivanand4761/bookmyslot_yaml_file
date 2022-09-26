@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: param036/capstone:bookmyslot-api-gateway
+          image: shivanand1234/api-gateway:latest
           ports:
             - containerPort: 8080
           env:
